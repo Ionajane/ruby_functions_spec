@@ -41,4 +41,5 @@ end
 
 def number_to_short_month_name(number)
   return "Jan" if number == 1
+  return "Apr" if number == 4
 end
