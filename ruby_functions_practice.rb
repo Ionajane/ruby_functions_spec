@@ -35,4 +35,5 @@ end
 
 def number_to_full_month_name(number)
   return "January" if number == 1
+  return "March" if number == 3
 end
